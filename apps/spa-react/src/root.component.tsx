@@ -1,3 +1,9 @@
+import { Hero } from '@josip/hero';
+
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <section>
+      <Hero name='Example name' />
+    </section>
+  );
 }
